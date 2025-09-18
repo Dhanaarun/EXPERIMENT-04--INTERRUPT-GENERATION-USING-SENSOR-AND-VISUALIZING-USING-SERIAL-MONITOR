@@ -129,7 +129,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 ```
 #include "main.h"
 #include "stdio.h"
-#if defined(_GNUC_)
+#if defined(__GNUC__)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #endif
 
